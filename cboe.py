@@ -1,4 +1,4 @@
-"""CBOE Options Dashboard"""
+"""Ghost Options Dashboard"""
 __docformat__ = "numpy"
 
 import pandas as pd
@@ -25,7 +25,7 @@ st.set_page_config(
         "Get help":"https://ghostlabs.streamlit.app/",
         },
     )
-st.title('CBOE Options Dashboard')
+st.title('GhostLabs Options Dashboard')
 
 col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8,col_9,col_10 = st.columns([0.20,0.33,0.20,0.20,0.20,0.20,0.20,0.20,0.20,1])
 with col_1:
